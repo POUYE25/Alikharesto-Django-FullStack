@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Acceuil1" src="https://github.com/user-attachments/assets/ce791ccd-a443-434c-a0d7-59d4c50f5350" />#  ALIKHARESTO : Architecture Full-Stack & Modélisation de Données (Django)
+ ALIKHARESTO : Architecture Full-Stack & Modélisation de Données (Django)
 
 **Auteur :** Alassane POUYE | Étudiant en L3 Mathématiques-Informatique  
 **Technologies :** Python 3, Framework Django, SQLite/SQL, MDBootstrap (HTML5/CSS3)  
