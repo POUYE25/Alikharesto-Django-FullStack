@@ -1,4 +1,4 @@
-#  ALIKHARESTO : Architecture Full-Stack & Modélisation de Données (Django)
+<img width="1920" height="1080" alt="Acceuil1" src="https://github.com/user-attachments/assets/ce791ccd-a443-434c-a0d7-59d4c50f5350" />#  ALIKHARESTO : Architecture Full-Stack & Modélisation de Données (Django)
 
 **Auteur :** Alassane POUYE | Étudiant en L3 Mathématiques-Informatique  
 **Technologies :** Python 3, Framework Django, SQLite/SQL, MDBootstrap (HTML5/CSS3)  
@@ -7,8 +7,7 @@
 
 "Alikharesto" est une application web Full-Stack développée pour démontrer mes compétences en **ingénierie logicielle globale**. Prenant pour cas d'usage le système de gestion d'un restaurant gastronomique, l'objectif de ce projet est d'illustrer la maîtrise de l'architecture **Model-View-Template (MVT)**, la modélisation de bases de données relationnelles complexes, et l'intégration d'une interface utilisateur (UI) dynamique et responsive.
 
-<img width="1920" height="1080" alt="Capture d’écran du 2026-02-22 00-16-55" src="https://github.com/user-attachments/assets/c79b27e6-edd1-4acb-bccf-b0b0a5684ddd" />
-<img width="1920" height="1080" alt="Capture d’écran du 2026-02-22 00-16-33" src="https://github.com/user-attachments/assets/04fb2995-779c-49f2-b627-8728bb843729" />
+
 
 
 ##  Architecture Modulaire (Separation of Concerns)
@@ -33,6 +32,10 @@ La structure des données a été pensée pour garantir l'intégrité référent
 * **Interface d'Administration :** Panneau d'administration Django personnalisé (`@admin.register`, `list_display`, `search_fields`) pour permettre une gestion métier CRUD rapide.
 
 ##  Lancement du projet en local
+<img width="1920" height="1080" alt="Acceuil1" src="https://github.com/user-attachments/assets/3588da70-485c-4c20-bc43-d6666c3bb86c" />
+
+
+<img width="1920" height="1080" alt="Acceuil2" src="https://github.com/user-attachments/assets/0fa9c4fe-c0e9-48b2-86b0-29e86bbe19c2" />
 
 Pour tester l'application sur votre machine :
 
