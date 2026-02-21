@@ -6,7 +6,9 @@
 ##  Contexte et Objectif
 
 "Alikharesto" est une application web Full-Stack développée pour démontrer mes compétences en **ingénierie logicielle globale**. Prenant pour cas d'usage le système de gestion d'un restaurant gastronomique, l'objectif de ce projet est d'illustrer la maîtrise de l'architecture **Model-View-Template (MVT)**, la modélisation de bases de données relationnelles complexes, et l'intégration d'une interface utilisateur (UI) dynamique et responsive.
+<img width="1920" height="1080" alt="Acceuil" src="https://github.com/user-attachments/assets/89ad9d71-d7e3-4498-b6b2-2577dc788e3b" />
 
+<img width="1920" height="1080" alt="Acceuil2" src="https://github.com/user-attachments/assets/51a5906a-1f12-48da-af7c-b1a3d30bd321" />
 
 
 ##  Architecture Modulaire (Separation of Concerns)
