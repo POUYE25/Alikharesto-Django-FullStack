@@ -1,0 +1,25 @@
+{% extends "dishes/base.html" %}
+{% load static %}
+
+{% block title %}Mes réservations{% endblock %}
+
+{% block content %}
+  <div class="container mt-4">
+    <h1>{{ title }}</h1>
+    {% if reservations %}
+      <ul class="list-group">
+        {% for res in reservations %}
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Table {{ res.table.number }} – {{ res.date }} à {{ res.time }}
+            ({{ res.party_size }} pers.)
+            <span class="badge bg-{{ res.status|lower }}">
+              {{ res.get_status_display }}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>Vous n’avez aucune réservation.</p>
+    {% endif %}
+  </div>
+{% endblock %}

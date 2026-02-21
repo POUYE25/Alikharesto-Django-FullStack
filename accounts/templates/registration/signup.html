@@ -1,0 +1,14 @@
+{% extends "dishes/base.html" %}
+{% block title %}Inscription{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-4">
+    <h2 class="mb-4 text-center">Création de compte</h2>
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button class="btn btn-success w-100" type="submit">S'inscrire</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "dishes/base.html" %}
+{% load static %}
+
+{% block title %}Réserver une table{% endblock %}
+
+{% block content %}
+  <div class="container col-md-6 mt-4">
+    <h1>{{ title }}</h1>
+    <form method="post" novalidate>
+      {% csrf_token %}
+      {{ form.non_field_errors }}
+      {% for field in form %}
+        <div class="mb-3">
+          <label class="form-label">{{ field.label }}</label>
+          {{ field }}
+          {{ field.errors }}
+        </div>
+      {% endfor %}
+      <button type="submit" class="btn btn-success">Envoyer la réservation</button>
+      <a href="{% url 'dishes:home' %}" class="btn btn-link">Annuler</a>
+    </form>
+  </div>
+{% endblock %}

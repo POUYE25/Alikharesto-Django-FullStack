@@ -1,0 +1,15 @@
+{% extends "dishes/base.html" %}
+{% block title %}Menus{% endblock %}
+{% block content %}
+<h1 class="mb-4">Nos menus</h1>
+<ul class="list-group">
+  {% for menu in object_list %}
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      {{ menu.name }} – {{ menu.price }} €
+      <span class="badge bg-secondary">{{ menu.dishes.count }} plats</span>
+    </li>
+  {% empty %}
+    <li class="list-group-item">Aucun menu pour l’instant.</li>
+  {% endfor %}
+</ul>
+{% endblock %}

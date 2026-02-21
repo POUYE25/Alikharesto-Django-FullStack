@@ -1,0 +1,9 @@
+{% extends "dishes/base.html" %}
+{% block title %}Inscription réussie{% endblock %}
+{% block content %}
+<div class="alert alert-success text-center">
+  <h4 class="alert-heading">Inscription réussie!</h4>
+  <p>Vous pouvez maintenant vous connecter.</p>
+  <a class="btn btn-primary" href="{% url 'accounts:login' %}">Connexion</a>
+</div>
+{% endblock %}

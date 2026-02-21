@@ -1,0 +1,17 @@
+{% extends "dishes/base.html" %}
+{% block title %}Tables{% endblock %}
+{% block content %}
+<h1 class="mb-4">Nos tables</h1>
+<ul class="list-group">
+  {% for table in tables %}
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      Table {{ table.number }} – {{ table.seats }} places
+      <span class="badge bg-{{ table.is_available|yesno:"success,danger" }}">
+        {{ table.is_available|yesno:"Libre,Occupée" }}
+      </span>
+    </li>
+  {% empty %}
+    <li class="list-group-item">Aucune table enregistrée.</li>
+  {% endfor %}
+</ul>
+{% endblock %}
